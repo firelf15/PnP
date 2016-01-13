@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string-array name="pnpdata">
+        <item>
+            <pnp_id>1</pnp_id>
+            <pnp_pic_filename>pics/trek-pic1.jpg</pnp_pic_filename>
+            <pnp_text_filename>paras/trek-para1.txt</pnp_text_filename>
+        </item>
+        <item>
+            <pnp_id>2</pnp_id>
+            <pnp_pic_filename>pics/trek-pic2.jpg</pnp_pic_filename>
+            <pnp_text_filename>paras/trek-para2.txt</pnp_text_filename>
+        </item>
+        <item>
+            <pnp_id>3</pnp_id>
+            <pnp_pic_filename>pics/trek-pic3.jpg</pnp_pic_filename>
+            <pnp_text_filename>paras/trek-para3.txt</pnp_text_filename>
+        </item>
+        <item>
+            <pnp_id>4</pnp_id>
+            <pnp_pic_filename>pics/trek-pic4.jpg</pnp_pic_filename>
+            <pnp_text_filename>paras/trek-para4.txt</pnp_text_filename>
+        </item>
+        <item>
+            <pnp_id>5</pnp_id>
+            <pnp_pic_filename>pics/trek-pic5.jpg</pnp_pic_filename>
+            <pnp_text_filename>paras/trek-para5.txt</pnp_text_filename>
+        </item>
+        <item>
+            <pnp_id>6</pnp_id>
+            <pnp_pic_filename>pics/trek-pic6.jpg</pnp_pic_filename>
+            <pnp_text_filename>paras/trek-para6.txt</pnp_text_filename>
+        </item>
+        <item>
+            <pnp_id>7</pnp_id>
+            <pnp_pic_filename>pics/trek-pic7.jpg</pnp_pic_filename>
+            <pnp_text_filename>paras/trek-para7.txt</pnp_text_filename>
+        </item>
+    </string-array>
+</resources>
