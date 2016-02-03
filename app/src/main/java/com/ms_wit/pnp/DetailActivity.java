@@ -21,8 +21,8 @@ public class DetailActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        String productId = getIntent().getStringExtra(MainActivity.PNP_ID);
-        final PnP pnP = DataProvider.pnpMap.get(productId);
+        String pnpId = getIntent().getStringExtra(MainActivity.PNP_ID);
+        final PnP pnP = DataProvider.pnpMap.get(pnpId);
 
         TextView tv = (TextView) findViewById(R.id.nameText);
         tv.setText(pnP.getName());

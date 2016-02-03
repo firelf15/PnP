@@ -17,8 +17,7 @@ import android.widget.Toast;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-
-    private static final int MENU_ITEM_LOGOUT = 1001;
+    
     public static final String PNP_ID = "PNP_ID";
 
     private static final int DETAIL_REQUEST = 1111;
@@ -66,8 +65,6 @@ public class MainActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
 
-        menu.add(0, MENU_ITEM_LOGOUT, 1001, R.string.logout);
-
         return true;
     }
 
@@ -76,11 +73,6 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         switch (id) {
-            case R.id.action_settings:
-                Snackbar.make(coordinatorLayout,
-                        "You selected settings", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-                return true;
             case R.id.action_about:
                 Intent intent = new Intent(this, AboutActivity.class);
                 startActivity(intent);
@@ -91,16 +83,6 @@ public class MainActivity extends AppCompatActivity {
                 if (webIntent.resolveActivity(getPackageManager()) != null) {
                     startActivity(webIntent);
                 }
-                return true;
-            case R.id.action_cart:
-                Snackbar.make(coordinatorLayout,
-                        "You selected the Shopping Cart", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-                return true;
-            case MENU_ITEM_LOGOUT:
-                Snackbar.make(coordinatorLayout,
-                        "You selected Logout", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
                 return true;
         }
 
