@@ -9,4 +9,11 @@
     <string name="about_text">“There were once three brothers who were traveling along a lonely, winding road at twilight. In time, the brothers reached a river too deep to wade through and too dangerous to swim across.” Excerpt From: J.K. Rowling. “The Tales of Beedle the Bard.” iBooks. </string>
     <string name="title_activity_about">About</string>
     <string name="title_activity_detail">Entry Details</string>
+    <string name="title_activity_editor">EditorActivity</string>
+    <string name="new_note">New Note</string>
+    <string name="note_updated">Changes Saved</string>
+    <string name="action_delete">Delete</string>
+    <string name="note_deleted">Note Deleted</string>
+    <string name="note">Note</string>
+    <string name="enter_note">Enter note here</string>
 </resources>

@@ -17,7 +17,7 @@ import android.widget.Toast;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    
+
     public static final String PNP_ID = "PNP_ID";
 
     private static final int DETAIL_REQUEST = 1111;

@@ -17,7 +17,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Product name"
+        android:text="Today's Entry"
         android:textSize="30sp" />
 
     <ImageView
