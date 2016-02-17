@@ -47,8 +47,9 @@ public class EditorActivity extends AppCompatActivity {
             editor.requestFocus();
         }
 
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
+
     // http://www.lynda.com/Android-tutorials/Creating-new-note/377485/406775-4.html has a lot of code above this point
     // such as onOptionsItemSelected(MenuItem Item) and onCreateOptionsMenu(Menu menu)
     @Override
@@ -88,7 +89,7 @@ public class EditorActivity extends AppCompatActivity {
 
     private void finishEditing() {
         String newText = editor.getText().toString().trim();
-        switch (action){
+        switch (action) {
             case Intent.ACTION_INSERT:
                 if (newText.length() == 0) {
                     setResult(RESULT_CANCELED);

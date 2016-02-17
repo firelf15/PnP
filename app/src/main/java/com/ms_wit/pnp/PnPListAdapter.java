@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
-public class PnPListAdapter extends ArrayAdapter<PnP>{
+public class PnPListAdapter extends ArrayAdapter<PnP> {
 
     private List<PnP> pnPs;
 

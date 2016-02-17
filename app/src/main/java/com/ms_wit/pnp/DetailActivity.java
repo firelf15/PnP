@@ -45,7 +45,7 @@ public class DetailActivity extends AppCompatActivity
         Bitmap bitmap = getBitmapFromAsset(pnP.getPnpId());
         iv.setImageBitmap(bitmap);
 
-//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     private Bitmap getBitmapFromAsset(String pnpId) {

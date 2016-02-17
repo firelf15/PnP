@@ -42,7 +42,7 @@ public final class DataProvider {
     }
 
     private static void addPnp(String itemId, String name,
-                                   String description) {
+                               String description) {
         PnP item = new PnP(itemId, name, description);
         pnPList.add(item);
         pnpMap.put(itemId, item);

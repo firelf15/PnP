@@ -15,7 +15,7 @@ public class NotesProvider extends ContentProvider {
 
     private static final String AUTHORITY = "com.ms_wit.pnp.notesprovider";
     private static final String BASE_PATH = "notes";
-    public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/" + BASE_PATH );
+    public static final Uri CONTENT_URI = Uri.parse("content://" + AUTHORITY + "/" + BASE_PATH);
 
     // Constant to identify the requested operation
     private static final int NOTES = 1;

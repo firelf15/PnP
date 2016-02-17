@@ -25,11 +25,11 @@
         android:id="@+id/headline"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginBottom="10dp"
         android:text="@string/about_headline"
         android:textSize="@dimen/headline_size"
-        android:textStyle="bold"
-        android:layout_below="@+id/imageView"
-        android:layout_marginBottom="10dp"/>
+        android:textStyle="bold" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -40,8 +40,8 @@
             android:id="@+id/longText"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/content_size"
-            android:text="@string/about_text" />
+            android:text="@string/about_text"
+            android:textSize="@dimen/content_size" />
 
     </ScrollView>
 

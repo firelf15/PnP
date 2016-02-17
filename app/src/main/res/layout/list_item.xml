@@ -8,20 +8,20 @@
         android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_margin="5dp"
         android:scaleType="fitStart"
-        android:src="@drawable/trek_pic1"
-        android:layout_margin="5dp"/>
+        android:src="@drawable/trek_pic1" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
         android:layout_toEndOf="@+id/imageView"
         android:layout_toRightOf="@id/imageView"
         android:orientation="vertical"
-        android:padding="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginStart="10dp">
+        android:padding="10dp">
 
         <TextView
             android:id="@+id/nameText"
